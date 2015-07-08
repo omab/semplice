@@ -117,7 +117,7 @@ using inheritance. For example:
 This content goes before the block.
 {% block content %}
   This is the default content of this block.
-{% endblock %}
+{% end %}
 This content goes after the block.
 ```
 
