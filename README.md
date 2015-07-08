@@ -159,7 +159,7 @@ Any method defined in ``Semplice::GlobalContext`` will be available in
 the template context at rendering time:
 
 ```ruby
-moudle Semplice::GlobalContext
+module Semplice::GlobalContext
   def twice(val)
     val * 2
   end
