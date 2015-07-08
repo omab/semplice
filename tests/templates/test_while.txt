@@ -1,0 +1,1 @@
+hello{% while name = names.shift %} {{ name }}{% end %}

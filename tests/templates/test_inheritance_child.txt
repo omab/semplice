@@ -1,0 +1,4 @@
+{% extends "test_inheritance_base.txt" %}
+{% block content %}
+content replacement
+{% end %}

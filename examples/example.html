@@ -1,0 +1,31 @@
+<div>This is a simple template</div>
+
+<div>With a var: {{ var1 }}</div>
+
+<div>With a var and filters: {{ var1 }}</div>
+
+<div>
+    With an if tag:
+    {% if var2 %}
+        YES
+    {% else %}
+        NO
+    {% end %}
+</div>
+
+<div>
+    With a map:
+    <ul>
+    {% var3.map do |v| %}
+        <li>{{ v }}</li>
+    {% end %}
+    </ul>
+</div>
+
+{% block :foobar do %}
+    before sub-block
+    {% block :bazquox do %}
+        <div>Just a block</div>
+    {% end %}
+    after sub-block
+{% end %}

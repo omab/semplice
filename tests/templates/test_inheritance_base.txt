@@ -1,0 +1,4 @@
+base template
+{% block content %}
+default block content
+{% end %}
