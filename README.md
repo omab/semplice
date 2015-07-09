@@ -1,5 +1,7 @@
 # Semplice
 
+[![Gem Version](https://badge.fury.io/rb/semplice.svg)](http://badge.fury.io/rb/semplice)
+
 ``Semplice`` is a [mote](https://github.com/soveran/mote) inspired
 template engine with Django-like syntax and inheritance.
 
