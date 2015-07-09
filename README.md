@@ -189,3 +189,9 @@ You can include the ``Helpers`` module to simplify access to
 ```ruby
 include Semplice::Helpers
 ```
+
+## Install
+
+```shell
+$ gem install semplice
+```
