@@ -24,6 +24,13 @@ Semplice.render_text('hello {{ world }}', {
 })
 ```
 
+To simplify paths, it's possible to define a set of directories where
+``Semplice`` will look for template files:
+
+```ruby
+Semplice.template_dirs(['path/to/dir1', 'other/dir2', ...])
+```
+
 ## Templates
 
 ### Values
