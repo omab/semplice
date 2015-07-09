@@ -9,7 +9,7 @@ template engine with Django-like syntax and inheritance.
 ``Semplice`` use is quite strightforward, put your content on a
 template (or not) and call render.
 
-```
+```ruby
 Semplice.render('path/to/template', {
   foo: 'bar',
   baz: 'quox'
@@ -18,7 +18,7 @@ Semplice.render('path/to/template', {
 
 Or you can render directly from text:
 
-```
+```ruby
 Semplice.render_text('hello {{ world }}', {
   world: 'earthlings'
 })
